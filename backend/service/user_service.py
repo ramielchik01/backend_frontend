@@ -4,5 +4,7 @@ class UserService:
         pass
     def registerNewUser(self, userData: UserRegister)
         return {
-            
+            "id": 1,
+            "name": userData.name,
+            "email":
         }
