@@ -6,5 +6,6 @@ class UserService:
         return {
             "id": 1,
             "name": userData.name,
-            "email":
+            "email": userData.email,
+            "isActive": True
         }
